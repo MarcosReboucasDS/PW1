@@ -1,0 +1,174 @@
+h1 {
+  background-color: #FF0000;
+  text-align: center;
+}
+
+body {
+	background-image: url("Img/-a.png"); 
+	background-position: 50% 0%;
+	background-attachment: fixed;
+  }
+
+#frases {
+	color: #000000;
+}
+
+#cabecalho {
+  background-color: #8B0000;
+  text-align: center;
+}
+
+#cabecalho ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+#cabecalho ul li{
+  display: inline;
+  justify-content: center;
+}
+
+#cabecalho ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #8B0000;
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 3px solid #363636;
+}
+
+#cabecalho ul li a:hover{
+	background-color: #000000;
+	color: #8B0000;
+	border-bottom: 3px solid #FF0000 ;
+}
+
+#texto {
+	color: #ffffff;
+	font-size: 19px;
+	text-shadow: gray 0.1em 0.1em 0.2em;
+}
+
+#pllindex {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#rodape {
+   height: 5%;
+   width: 100%;
+   background-color: #8B0000;
+   color: #000000;
+   text-align: center;
+   position: relative;
+   bottom: 0;
+}
+
+#info{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;}
+
+#info th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #8B0000;
+	color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+}
+
+#info td{
+	border: 1px solid #DCDCDC;
+}
+
+#info tr:nth-child(even){
+	background-color: #FF0000;
+	color: #ffffff;
+}
+
+#info tr:hover{
+	background-color: #FF1493;
+}
+
+figure{
+	background-color: #F0FFFF;
+	color: #C71585;
+	max-height: 700px;
+	max-width: 500px;
+	border: thin #000000 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 10px;
+	margin:auto;
+}
+
+#temp2{
+	height: 500px;
+   width: 400px;
+}
+
+#temp3{
+	height: 560px;
+   width: 450px;
+}
+
+#temp4{
+   height: 560px;
+   width: 450px;
+}
+
+#temp6{
+   height: 625px;
+   width: 400px;
+}
+
+#formulario {
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #800000;
+    max-width: 560px;
+    height: 600px;
+    margin: auto;
+
+}
+
+textarea {
+	width: 200px;
+	padding: 80px;
+	color: #FF1493;
+	margin-left: 50px;
+    margin-top: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border: 3px solid;
+}
+
+input {
+	padding: 5px;
+    color: #FF1493;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+#enviar{
+	padding: 7px;
+	margin-top: 20px;
+    margin-left: 88px;
+    
+}
+
+#limpar{
+    margin-top: 10px;
+	padding: 7px;
+    margin-left: 88px;
+}
