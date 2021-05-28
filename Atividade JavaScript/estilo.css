@@ -1,0 +1,42 @@
+#cabecalho{
+	background-color: #48D1CC;
+    text-align: left;
+    position: fixed;
+    height: 100%;
+    right: 923pt;
+    top: 0%;
+}
+
+#cabecalho ul {
+  text-align: left;
+  list-style-type: none;
+   padding: 0px;
+  margin: 0px;
+}
+
+#cabecalho ul li{
+  display: list-item;
+  justify-content:center;
+}
+
+#cabecalho ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #48D1CC;
+	color: #008080;
+	text-decoration: none;
+	border-bottom: 3px solid #48D1CC;
+}
+
+#cabecalho ul li a:hover{
+	background-color: #008080;
+	color: #48D1CC;
+	border-bottom: 3px solid #F0FFFF ;
+}
+
+#mover{
+	padding-left: 20%;
+}
+
+
+    

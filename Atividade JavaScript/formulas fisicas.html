@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fórmulas</title>
+	<script type="text/javascript" src="desenvolvimento.js">		
+	</script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</he1ad>
+<body>
+   <div id="cabecalho">
+    <header>
+    	<ul>
+    	  <li>
+    	   <a href="#resultadoforca">Força</a>
+    	  </li>
+        </ul>
+    	<ul>
+    	  <li>
+    	   <a href="#resultadovm">Velocidade Média</a>
+    	  </li>
+        </ul>
+        <ul>
+    	  <li>
+    	   <a href="#resultadovf">Velocidade Final (Torricelli)</a>
+    	  </li>
+        </ul>
+        <ul>
+    	  <li>
+    	   <a href="#resultadoaceleracao">Aceleração</a>
+    	  </li>
+        </ul>
+        <ul>
+    	  <li>
+    	   <a href="#resultadofhp">Função Horária da Posição</a>
+    	  </li>
+        </ul>
+    </header>
+   </div>
+   <div id="mover">
+   <h1>Força</h1>
+   <p>A fórmula para calcular a Força é expressa pela seguinte equação F=M.A, onde F é força, M é massa e A é aceleração.</p>
+   <div id="funcao">
+   	<h3 id="resultadoforca">Força</h3>
+   	<input type="text" id="massaforca" placeholder="Massa">
+   	<input type="text" id="aceleracaoforca" placeholder="Aceleração">
+   	<input type="button" id="calcfuncao" value="Calcular" onclick="calcforca()">
+   </div>
+   <h1>Velocidade Média</h1>
+   <p>Velocidade Média é fruto da razão entre o espaço percorrido por um móvel e o tempo gasto.</p>
+   <div id="funcao">
+   	<h3 id="resultadovm">Velocidade Média</h3>
+   	<input type="text" id="espaçovm" placeholder="Espaço">
+   	<input type="text" id="tempovm" placeholder="Tempo">
+   	<input type="button" id="calcvm" value="Calcular" onclick="calcvm()">
+   </div>
+   <h1>Velocidade Final (Torricelli)</h1>
+   <p>Equação de Torricelli determina a velocidade fonal de um móvel sem necessidade de tempo.</p>
+   <div id="funcao">
+   	<h3 id="resultadovf">Velocidade Final</h3>
+   	<input type="text" id="velinicialvf" placeholder="Velocidade Inicial">
+   	<input type="text" id="aceleracaovf" placeholder="Aceleração">
+   	<input type="text" id="varespacovf" placeholder="Variação de Espaço">
+   	<input type="button" id="calcvf" value="Calcular" onclick="calcvf()">
+   </div>
+   <h1>Aceleração</h1>
+   <p>Determina a taxa de variação da velocidade. Ela é dada pela razão da variação de velocidade e pelo tempo.</p>
+   <div id="funcao">
+   	<h3 id="resultadoaceleracao">Aceleração</h3>
+   	<input type="text" id="varaceleracao" placeholder="Variação de Velocidade">
+   	<input type="text" id="vartempo" placeholder="Variação de Tempo">
+   	<input type="button" id="calcaceleracao" value="Calcular" onclick="calcaceleracao()">
+   </div>
+   <h1>Função Horária da Posição</h1>
+   <p>Determina a posição do móvel que escuta que executa movimento retilíneo uniformemente variado.</p>
+   <div id="funcao">
+   	<h3 id="resultadofhp">Função Horária da Posição</h3>
+   	<input type="text" id="posinicial" placeholder="Posição Inicial">
+   	<input type="text" id="velinicial" placeholder="Valocidade Inicial">
+   	<input type="text" id="aceleracaofhp" placeholder="Aceleração">
+   	<input type="text" id="tempofhp" placeholder="Tempo">
+   	<input type="button" id="calcfhp" value="Calcular" onclick="calcfhp()">
+   </div>
+   </div>
+</body>
+</html>
